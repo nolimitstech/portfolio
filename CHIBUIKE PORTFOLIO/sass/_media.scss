@@ -1,0 +1,13 @@
+// @media screen and (min-width : 500px) and (max-width : 780px) {
+//   .home-heading__h1 {
+//     font-size: 50%;
+//     color: red;
+//   }
+// }
+
+@media only screen and (min-width: 500px) {
+  .home-heading__h1 {
+    font-size: 50%;
+    color: red;
+  }
+}
