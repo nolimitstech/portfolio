@@ -60,7 +60,8 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 50.5%;
+  font-family: sans-serif;
 }
 @media only screen and (max-width: 81.25em) {
   html {
@@ -71,6 +72,7 @@ html {
 body {
   padding: 1rem;
   background-color: rgb(1, 37, 37);
+  font-family: sans-serif;
 }
 @media screen and (min-width: 320px) and (max-width: 634px) {
   body {
@@ -96,22 +98,22 @@ body {
 .home-container .header-nav {
   font-size: 200%;
   text-decoration: none;
-  color: rgb(255, 94, 0);
+  color: rgb(247, 98, 11);
   font-family: sans-serif;
   font-weight: bold;
   cursor: pointer;
   padding: 2rem 3rem;
   background-color: rgba(3, 44, 44, 0.993);
   border-radius: 0.8rem;
-  border-bottom: 2px solid rgb(255, 94, 0);
+  border-bottom: 2px solid rgb(247, 98, 11);
 }
 .home-container .header-nav:hover {
-  border-right: 2.5px solid rgb(255, 94, 0);
+  border-right: 2.5px solid rgb(247, 98, 11);
   transform: translateY(-8px);
 }
 @media screen and (min-width: 320px) and (max-width: 560px) {
   .home-container .header-nav:hover {
-    border-right: 2.1px solid rgb(255, 94, 0);
+    border-right: 2.1px solid rgb(247, 98, 11);
   }
 }
 @media screen and (min-width: 320px) and (max-width: 560px) {
@@ -120,7 +122,7 @@ body {
     padding: 1rem;
     font-weight: 400;
     border-radius: 0.6rem;
-    border-bottom: 1.7px solid rgb(255, 94, 0);
+    border-bottom: 1.7px solid rgb(247, 98, 11);
   }
 }
 @media screen and (min-width: 561px) and (max-width: 760px) {
@@ -129,7 +131,7 @@ body {
     padding: 1rem 2rem;
     font-weight: 600;
     border-radius: 0.7rem;
-    border-bottom: 1.8px solid rgb(255, 94, 0);
+    border-bottom: 1.8px solid rgb(247, 98, 11);
   }
 }
 @media screen and (min-width: 100px) and (max-width: 319px) {
@@ -186,7 +188,7 @@ body {
           animation: MoveInLeft 1s ease-out;
 }
 .home-container .home-heading__h1 span {
-  color: rgb(255, 94, 0);
+  color: rgb(247, 98, 11);
   font-size: 150%;
 }
 @media screen and (min-width: 320px) and (max-width: 560px) {
@@ -313,6 +315,7 @@ body {
   margin-bottom: 2rem;
   font-size: 220%;
   font-weight: 400;
+  font-family: sans-serif;
   line-height: 3rem;
   color: rgb(218, 236, 236);
 }
@@ -330,7 +333,7 @@ li {
   font-size: 220%;
   font-weight: 400;
   line-height: 3rem;
-  color: rgb(255, 123, 0);
+  color: rgb(247, 98, 11);
 }
 @media screen and (min-width: 320px) and (max-width: 560px) {
   li {
@@ -444,7 +447,7 @@ li {
 }
 
 .skills-h2 {
-  color: rgb(255, 94, 0);
+  color: rgb(247, 98, 11);
   font-weight: 900;
   font-size: 300%;
   margin-bottom: 2.5rem;
@@ -506,7 +509,7 @@ li {
 .skill-link:hover {
   background-color: transparent;
   color: aqua;
-  border: 1.6px solid rgb(255, 94, 0);
+  border: 1.6px solid rgb(247, 98, 11);
 }
 
 .link1 {
@@ -608,7 +611,7 @@ li {
   font-size: 2rem;
   color: rgba(3, 44, 44, 0.993);
   padding: 0.7rem 1.3rem;
-  background-color: rgb(255, 94, 0);
+  background-color: rgb(247, 98, 11);
   text-decoration: none;
   font-weight: 600;
   border-radius: 0.8rem;
@@ -617,8 +620,8 @@ li {
 .project-link:hover {
   transform: translateX(-5px);
   background-color: rgba(3, 44, 44, 0.993);
-  color: rgb(255, 94, 0);
-  border-bottom: 2.5px solid rgb(255, 94, 0);
+  color: rgb(247, 98, 11);
+  border-bottom: 2.5px solid rgb(247, 98, 11);
   border-top: 2px solid rgb(160, 59, 1);
   cursor: pointer;
 }
@@ -671,7 +674,7 @@ li {
   position: absolute;
   font-family: sans-serif;
   font-size: 200%;
-  color: rgb(255, 94, 0);
+  color: rgb(247, 98, 11);
   text-align: center;
   line-height: 3rem;
 }
@@ -922,7 +925,7 @@ td:first-child {
   display: none;
 }
 .navigation__button {
-  background-color: rgb(255, 94, 0);
+  background-color: rgb(247, 98, 11);
   height: 5rem;
   width: 5rem;
   position: fixed;

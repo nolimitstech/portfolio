@@ -14,8 +14,8 @@ $bp-smallest: 31.25em; //600px/16px=37.5
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; // 1rem=10px/16px= 62.5%
-
+  font-size: 50.5%; // 1rem=10px/16px= 62.5%
+  font-family: sans-serif;
 
   @media only screen and (max-width: $bp-largest) {
     font-size: 50%; // ie 8px (8/16)
@@ -27,6 +27,7 @@ html {
 body {
   padding: 1rem;
   background-color: rgb(1, 37, 37);
+  font-family: sans-serif;
 
   @media screen and (min-width : 320px) and (max-width : 634px) {
     // font-size: 1.9rem;
@@ -62,23 +63,25 @@ body {
     font-size: 200%;
     text-decoration: none;
     //color: rgb(233, 247, 247);
-    color: rgb(255, 94, 0);
+    color: rgb(247, 98, 11);
     font-family: sans-serif;
     font-weight: bold;
     cursor: pointer;
     padding: 2rem 3rem; // 2rem 3rem;
     background-color: rgba(3, 44, 44, 0.993);
     border-radius: .8rem;
-    border-bottom: 2px solid rgb(255, 94, 0);
+    border-bottom: 2px solid rgb(247, 98, 11);
 
 
 
     &:hover {
-      border-right: 2.5px solid rgb(255, 94, 0);
+      border-right: 2.5px solid rgb(247, 98, 11);
+      ;
       transform: translateY(-8px);
 
       @media screen and (min-width : 320px) and (max-width : 560px) {
-        border-right: 2.1px solid rgb(255, 94, 0);
+        border-right: 2.1px solid rgb(247, 98, 11);
+        ;
       }
 
     }
@@ -88,7 +91,8 @@ body {
       padding: 1rem;
       font-weight: 400;
       border-radius: .6rem;
-      border-bottom: 1.7px solid rgb(255, 94, 0);
+      border-bottom: 1.7px solid rgb(247, 98, 11);
+      ;
 
     }
 
@@ -97,7 +101,8 @@ body {
       padding: 1rem 2rem;
       font-weight: 600;
       border-radius: .7rem;
-      border-bottom: 1.8px solid rgb(255, 94, 0);
+      border-bottom: 1.8px solid rgb(247, 98, 11);
+      ;
     }
 
 
@@ -178,7 +183,8 @@ body {
     animation: MoveInLeft 1s ease-out;
 
     span {
-      color: rgb(255, 94, 0);
+      color: rgb(247, 98, 11);
+      ;
       font-size: 150%;
       // font-weight: bold;
 
@@ -346,6 +352,7 @@ body {
   margin-bottom: 2rem;
   font-size: 220%;
   font-weight: 400;
+  font-family: sans-serif;
   line-height: 3rem;
   // border: 2px solid green;
   color: rgb(218, 236, 236);
@@ -371,7 +378,8 @@ li {
   font-weight: 400;
   line-height: 3rem;
   // color: rgb(231, 234, 236);
-  color: rgb(255, 123, 0);
+  color: rgb(247, 98, 11);
+  ;
 
   @media screen and (min-width : 320px) and (max-width : 560px) {
     font-size: 185%;
@@ -512,7 +520,8 @@ li {
 
 .skills-h2 {
   //display: inline-block;
-  color: rgb(255, 94, 0);
+  color: rgb(247, 98, 11);
+  ;
   font-weight: 900;
   font-size: 300%;
   margin-bottom: 2.5rem;
@@ -581,7 +590,8 @@ li {
     background-color: transparent;
     color: aqua;
     //border: 1.6px solid rgb(5, 116, 116);
-    border: 1.6px solid rgb(255, 94, 0);
+    border: 1.6px solid rgb(247, 98, 11);
+    ;
   }
 
 
@@ -696,7 +706,8 @@ li {
   color: rgba(3, 44, 44, 0.993);
   padding: .7rem 1.3rem;
   // background-color: rgb(76, 235, 235);
-  background-color: rgb(255, 94, 0);
+  background-color: rgb(247, 98, 11);
+  ;
   text-decoration: none;
   font-weight: 600;
   border-radius: .8rem;
@@ -707,8 +718,10 @@ li {
   &:hover {
     transform: translateX(-5px);
     background-color: rgba(3, 44, 44, 0.993);
-    color: rgb(255, 94, 0);
-    border-bottom: 2.5px solid rgb(255, 94, 0);
+    color: rgb(247, 98, 11);
+    ;
+    border-bottom: 2.5px solid rgb(247, 98, 11);
+    ;
     border-top: 2px solid rgb(160, 59, 1);
     cursor: pointer;
   }
@@ -774,7 +787,8 @@ li {
   font-family: sans-serif;
   font-size: 200%;
   //color: rgb(204, 23, 23);
-  color: rgb(255, 94, 0);
+  color: rgb(247, 98, 11);
+  ;
   text-align: center;
   line-height: 3rem;
   // text-justify: auto;
