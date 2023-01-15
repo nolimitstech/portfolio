@@ -98,7 +98,7 @@ body {
 .home-container .header-nav {
   font-size: 200%;
   text-decoration: none;
-  color: rgb(160, 62, 5);
+  color: rgb(247, 98, 11);
   font-family: sans-serif;
   font-weight: bold;
   cursor: pointer;
@@ -188,7 +188,7 @@ body {
           animation: MoveInLeft 1s ease-out;
 }
 .home-container .home-heading__h1 span {
-  color: rgb(110, 42, 3);
+  color: rgb(247, 98, 11);
   font-size: 150%;
 }
 @media screen and (min-width: 320px) and (max-width: 560px) {
